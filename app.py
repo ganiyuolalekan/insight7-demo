@@ -48,79 +48,83 @@ if start_project:
         if transcript is not None:
             transcript_data[i] = StringIO(transcript.getvalue().decode("utf-8")).read()
 
-    transcript_1 = ProcessTranscript(
-        transcript_data=transcript_data[1], name='transcript_1',
-        relevance_thresh=relevance_thresh, use_grammar_corrector=use_grammar_corrector,
-        paraphrase_insights=paraphrase_insights
-    )
+    if len(transcript_data) < 2:
+        st.write("Please upload the transcript to begin, you can get the files from "
+                 "[Transcripts](https://github.com/ganiyuolalekan/insight7-demo/tree/main/data)")
+    else:
+        transcript_1 = ProcessTranscript(
+            transcript_data=transcript_data[1], name='transcript_1',
+            relevance_thresh=relevance_thresh, use_grammar_corrector=use_grammar_corrector,
+            paraphrase_insights=paraphrase_insights
+        )
 
-    transcript_2 = ProcessTranscript(
-        transcript_data=transcript_data[2], name='transcript_2',
-        relevance_thresh=relevance_thresh, use_grammar_corrector=use_grammar_corrector,
-        paraphrase_insights=paraphrase_insights
-    )
+        transcript_2 = ProcessTranscript(
+            transcript_data=transcript_data[2], name='transcript_2',
+            relevance_thresh=relevance_thresh, use_grammar_corrector=use_grammar_corrector,
+            paraphrase_insights=paraphrase_insights
+        )
 
-    transcript_3 = ProcessTranscript(
-        transcript_data=transcript_data[3], name='transcript_3',
-        relevance_thresh=relevance_thresh, use_grammar_corrector=use_grammar_corrector,
-        paraphrase_insights=paraphrase_insights
-    )
+        transcript_3 = ProcessTranscript(
+            transcript_data=transcript_data[3], name='transcript_3',
+            relevance_thresh=relevance_thresh, use_grammar_corrector=use_grammar_corrector,
+            paraphrase_insights=paraphrase_insights
+        )
 
-    st.write("# Overview of the insights")
+        st.write("# Overview of the insights")
 
-    tab1, tab2, tab3 = st.tabs([
-        "Insights from the first transcript",
-        "insights from the second transcript",
-        "insights from the third transcript"
-    ])
+        tab1, tab2, tab3 = st.tabs([
+            "Insights from the first transcript",
+            "insights from the second transcript",
+            "insights from the third transcript"
+        ])
 
-    with tab1:
-        st.header(f"We have a total of {len(transcript_1.insights)} insights")
-        for i, insight in enumerate(transcript_1.insights, start=1):
-            st.write(f'{i}.' + insight)
+        with tab1:
+            st.header(f"We have a total of {len(transcript_1.insights)} insights")
+            for i, insight in enumerate(transcript_1.insights, start=1):
+                st.write(f'{i}.' + insight)
 
-    with tab2:
-        st.header(f"We have a total of {len(transcript_2.insights)} insights")
-        for i, insight in enumerate(transcript_2.insights, start=1):
-            st.write(f'{i}.' + insight)
+        with tab2:
+            st.header(f"We have a total of {len(transcript_2.insights)} insights")
+            for i, insight in enumerate(transcript_2.insights, start=1):
+                st.write(f'{i}.' + insight)
 
-    with tab3:
-        st.header(f"We have a total of {len(transcript_3.insights)} insights")
-        for i, insight in enumerate(transcript_3.insights, start=1):
-            st.write(f'{i}.' + insight)
+        with tab3:
+            st.header(f"We have a total of {len(transcript_3.insights)} insights")
+            for i, insight in enumerate(transcript_3.insights, start=1):
+                st.write(f'{i}.' + insight)
 
-    divider()
-
-    st.write("# Mapping insights to a theme based on similarity")
-    st.write("**👈🏾👈🏾👈🏾 You can use the similarity threshold to control how tightly related they should be**")
-
-    st.write("### We have the following records of themes in the transcripts")
-    divider()
-    st.write(f"#### The first transcript has {len(transcript_1.themes)} themes which are:")
-    for i, theme in enumerate(transcript_1.themes, start=1):
-        st.write(f'{i}.' + theme)
-    divider()
-    st.write(f"#### The second transcript has {len(transcript_2.themes)} themes which are:")
-    for i, theme in enumerate(transcript_2.themes, start=1):
-        st.write(f'{i}.' + theme)
-    divider()
-    st.write(f"#### The third transcript has {len(transcript_3.themes)} themes which are:")
-    for i, theme in enumerate(transcript_3.themes, start=1):
-        st.write(f'{i}.' + theme)
-    divider()
-
-    st.write("### Here are the insights for each theme")
-
-    transcript_1 += transcript_2
-    transcript_1 += transcript_3
-
-    theme_insight_map = transcript_1.get_theme_similar_insights(thresh=theme_similarity_thresh)
-
-    for theme in theme_insight_map:
-        st.write(f"##### Theme: \"{theme}\"")
-        for i, result in enumerate(theme_insight_map[theme], start=1):
-            st.write(f"{i}. {result[0]}. **FROM {result[1]}**")
         divider()
+
+        st.write("# Mapping insights to a theme based on similarity")
+        st.write("**👈🏾👈🏾👈🏾 You can use the similarity threshold to control how tightly related they should be**")
+
+        st.write("### We have the following records of themes in the transcripts")
+        divider()
+        st.write(f"#### The first transcript has {len(transcript_1.themes)} themes which are:")
+        for i, theme in enumerate(transcript_1.themes, start=1):
+            st.write(f'{i}.' + theme)
+        divider()
+        st.write(f"#### The second transcript has {len(transcript_2.themes)} themes which are:")
+        for i, theme in enumerate(transcript_2.themes, start=1):
+            st.write(f'{i}.' + theme)
+        divider()
+        st.write(f"#### The third transcript has {len(transcript_3.themes)} themes which are:")
+        for i, theme in enumerate(transcript_3.themes, start=1):
+            st.write(f'{i}.' + theme)
+        divider()
+
+        st.write("### Here are the insights for each theme")
+
+        transcript_1 += transcript_2
+        transcript_1 += transcript_3
+
+        theme_insight_map = transcript_1.get_theme_similar_insights(thresh=theme_similarity_thresh)
+
+        for theme in theme_insight_map:
+            st.write(f"##### Theme: \"{theme}\"")
+            for i, result in enumerate(theme_insight_map[theme], start=1):
+                st.write(f"{i}. {result[0]}. **FROM {result[1]}**")
+            divider()
 else:
     with open('README.md', 'r') as f:
         demo_report = f.read()
