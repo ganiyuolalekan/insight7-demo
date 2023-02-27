@@ -19,6 +19,7 @@ from sentence_transformers import SentenceTransformer, util
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 
 def app_meta():
