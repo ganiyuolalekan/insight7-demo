@@ -6,9 +6,12 @@ import requests
 
 import streamlit as st
 
+import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
+
+nltk.download('punkt')
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 
