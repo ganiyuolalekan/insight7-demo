@@ -1,0 +1,69 @@
+- First thing I'll like to see is a dashboard. But I guess this doesn't show anything because I'm new.
+
+Using Notes
+- First thing he did was to save metadata: customer name / company, contact name, industry, title, website,
+- Need to know everything about the user's business: No of SKUs, Small, SMB, Enterprise + Detail
+- I don't see Save note but see Analyse note.
+- Internal and external Highlighter widgets were showing at the same time. Should know you're on the app and disable the other.
+- The data on his notes disappeared when he left and came back.
+- Will be good to get a notification banner telling me my note has been autosaved
+- There's a white circle blocking the title text.
+- Went back and the tags he had saved disappeared.
+- Notes was suggesting tags outside of his team. Insight7 tags were showing up.
+- Clicked on refresh and he got logged him out.
+- Should be able to share a note with team after creating. Work in private and share with team.
+
+Library experience
+- Notification that your Summary is complete and saved in your library.
+- Summariser didn't working (he tried three times)
+- Blank page showed after publishing a Note.
+- The UX for the link showing within the modal is not good.
+- Highlight the title on the Library card with an underline to help me know its clickable.
+- No ability to search. I'm the type of guy who likes to search stuff. I want search available across the site and I love to filter by the types of items across the app (e.g notes, insights, recording, customer etc)
+- I would like to attach references to my Note e.g summary doc, Transcript and Recording. I also attach my interviewer notes.
+
+Current frustrations and needs in research workflow
+
+(1) Searchability
+- the data team have created a database so you can search by keywords.
+- Its not smart search. I need filters - search in title, body. E.g When I search Inventory I get a ton of results.
+- I spend too much time searching through 100's of docs.
+- Should be able to search other teams. This is something I value.
+
+(2) Be able to work directly in the software.
+- Say I can record the interview in the same place.
+- Create a customer folder or file. Create a doc or spreadsheet
+- I want to be able to put the artefacts together. If there's a folder feature.
+- I can sort and filter and add notes as I watch a recording.
+- I am watching or rewatching a customer interview and taking new notes
+- I don't have the tools to put it all in one place. Summaries in one place, Videos in one place
+- I create folders on my system. My colleagues want it too.
+- Organising - filter by type, sector, customer.
+- You can have multiple interviews with a customer within my org and I can see all user interviews done with one customer / account.
+- E.g the fulfilment team might have interviewed them and I want to Sort by customer.
+
+Mapping insights to opportunities and solutions at Amazon
+- Amazon has a process for mapping insights to what they’re working on
+- We use a doc called PRFAQ which contains key insights from research.
+- What goes into the strategy doc in addition to other data points include:
+    - Understand the customer from all points of view - internal data and research
+    - Industry report and competitive analysis
+    - Customer interviews
+    - Anything coming from customer support and sales teams
+- We capture resources and link them. It's like references in a thesis so anyone can go and validate / dig deeper. The references may or may not be hosted on your product.
+- We use a tool called Work docs (Amazon owned tool)
+    - Folders where you put notes
+    - upload the PRFAQs
+    - use these docs to update stakeholders
+    - Has versioning - go through previous versions to see the
+- Once the PRFAQ is done, the plan flows into roadmap which is also done in Work docs
+
+Mapping insights to opportunities at previous experience
+- In my former role we pull out the customer insights, dump into Miro, bring in stakeholders in multiple 90 min sessions
+- We assign scores to each insight / pain point
+- We use sticky notes to aggregate what the common elements are.
+- We then go into solutioning and then roadmap
+- I see an opportunity for your tool to organise these flows and link out to reference docs
+- You can aggregate this data and export to another tool (Miro or roadmapping)
+- Miro has good templates for aggregating insights
+- Some people might not know how to organise this process and templates can help automatically organise insights and prioritise problems

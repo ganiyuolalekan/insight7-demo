@@ -1,0 +1,36 @@
+What is painful today
+- I find the entire process difficult - scheduling,  summarising, synthesising across sources
+- The workflow is expensive, categorisation is expensive
+- I would like to know through the process, what are the pieces I’m missing
+- How do you capture stories that help you build a mental model
+- Stack ranking that and understanding the context
+
+My research workflow
+- I talk to internal teams, try to understand their motivation, goals, their angle. How do you shape and mould that
+- Tools capture what you did, how do we make conclusions
+- Gong - you have the recording, I still need to listen, watch the recording
+- Is there existing research, existing feedback research from forums, slack
+- Talking to key teams, support, examples of things we’ve see (e.g slack), schedule meetings with team
+- Sourcing people for our early adopter program, user testing with non-Coda users
+- Recorded interviews, taking notes on the side, some times you do a survey.
+- Most times, I do research myself. We don’t have enough researchers, sometimes its self-service
+- Sometimes, I’ll join a call and participate
+
+Most painful part of the workflow
+    1) Synthesis across various sources of info - video, text, survey is expensive across various sources and apps
+    2) Coordination of it - scheduling. How do I coordinate
+- Willingness to pay - I would use researcher salaries per hour to evaluate value
+- Insights level, you can summarise, you’re giving me back time. Office 365 subscription fees
+- Accelerating my time to insight
+- Without importers, it might be a big lift
+- Insights
+    - OKRs, Now Next later
+    - Simple - Keep it simple
+    - Categorise the model, make decisions on the investments
+    - Free form representation could be cards, tags
+    - Detailed list, I can group by investments, OKRs, and scan in then
+    - Hey I want to make 10% in delighter, 20% in accelerators
+- I would like a workflow that guides me once I come in e.g I came here to do a research project - here a bunch of things you can get started with.
+- Data to insights first
+- Extract insights from
+- Iconography can help

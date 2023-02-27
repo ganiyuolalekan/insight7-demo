@@ -1,0 +1,26 @@
+How we run our current research process:
+- We use Notion to run our interviews
+- Tag interviews by persona and segment
+- We also record the interview and embed the clip
+
+Things I like about Notion
+- I like the way I can start with a template in Notion. Something I would expect from a product like yours
+
+Things I don't like about Notion
+- Its not easy for us to grab insights or highlight within this interview and say these are the insights we got from this interview
+- I wish this product would get integrated into our Opportunity Solution Tree (the outcome we're chasing)
+- We use this framework to evaluate multiple opportunities we're chasing to get an outcome.
+- We also use it to validate assumptions we need to pass before we start building.
+- We're doing this in doing it in Figma and the research from Notion isn't integrated.
+- Now we can't connect research to those decisions, we just ask ourselves - do we feel confident in making this decision now?
+
+What I'm looking for
+- I would like a research tool that enables the research be integrated into our goals
+- Our outcome is centred around finding PMF. This is what we're trying to solve for.
+- We come up with a bunch of opportunities and then we come up with solutions for those opportunities. We look the opportunities and there are assumptions which we need to test.
+- An insight can be applied to an opportunity, a solution or establishing an assumption.
+
+Feedback on Dashboard UX
+- We are currently doing competitor pricing tracking so that will be useful
+- Recent activity also looks useful. If I’m looking for something or seeing someone just created this insight.
+- I wouldn't know what do with the Overview card. Don't know how that would be useful.
