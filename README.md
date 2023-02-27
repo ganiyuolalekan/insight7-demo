@@ -23,7 +23,7 @@ You can find the code for the application and the code for finding the insights 
 Codes:
 - [Application Code](https://github.com/ganiyuolalekan/insight7-demo/blob/main/app.py)
 - [Insights & Themes Code](https://github.com/ganiyuolalekan/insight7-demo/blob/main/utils.py)
-- [Transcripts](https://github.com/ganiyuolalekan/insight7-demo/tree/main/data)
+- [Transcripts](https://drive.google.com/drive/folders/1K3ULlqH0W45z54qp4SgHMgm5I8j6Mmwb?usp=sharing)
 
 ## References
 
@@ -31,4 +31,4 @@ Codes:
 - [Paraphrasing API](https://rapidapi.com/smodin/api/rewriter-paraphraser-text-changer-multi-language/details)
 - [Grammar Correction API](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-spell-check2/details)
 - [Insight Similarity API](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
-- 
+- [Transcripts](https://drive.google.com/drive/folders/1K3ULlqH0W45z54qp4SgHMgm5I8j6Mmwb?usp=sharing)
