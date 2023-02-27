@@ -11,11 +11,13 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-nltk.download('punkt')
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from sentence_transformers import SentenceTransformer, util
+
+
+nltk.download('punkt')
+nltk.download('stopwords')
 
 
 def app_meta():
