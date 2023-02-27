@@ -48,7 +48,7 @@ if start_project:
         if transcript is not None:
             transcript_data[i] = StringIO(transcript.getvalue().decode("utf-8")).read()
 
-    if len(transcript_data) < 2:
+    if len(transcript_data) < 3:
         st.write("Please upload the transcript to begin, you can get the files from "
                  "[Transcripts](https://github.com/ganiyuolalekan/insight7-demo/tree/main/data)")
     else:
