@@ -50,7 +50,7 @@ if start_project:
 
     if len(transcript_data) < 3:
         st.write("Please upload the transcript to begin, you can get the files from "
-                 "[Transcripts](https://github.com/ganiyuolalekan/insight7-demo/tree/main/data)")
+                 "[Transcripts]([Transcripts](https://drive.google.com/drive/folders/1K3ULlqH0W45z54qp4SgHMgm5I8j6Mmwb?usp=sharing))")
     else:
         transcript_1 = ProcessTranscript(
             transcript_data=transcript_data[1], name='transcript_1',
